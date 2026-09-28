@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Applications/Applications.csproj" />
+  <Project Path="ClassLibrary1/Infrastructure.csproj" Id="5ad1ecd2-d765-4a81-931a-77b31e7ec12f" />
+  <Project Path="Core/Core.csproj" />
+  <Project Path="DataAccess/DataAccess.csproj" />
+  <Project Path="Messanger.API/Messanger.API.csproj" />
+</Solution>

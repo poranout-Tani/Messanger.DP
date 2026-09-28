@@ -1,0 +1,85 @@
+# ==========================================
+# .NET / Visual Studio
+# ==========================================
+**/[Bb]in/
+**/[Oo]bj/
+**/.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.crash
+[Dd]ebug/
+[Rr]elease/
+_ReSharper*/
+*.DotSettings.user
+
+# ==========================================
+# Flutter / Dart
+# ==========================================
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/pubspec.lock
+
+# Android / iOS platform specific build artifacts
+**/android/**/gradlew
+**/android/**/gradlew.bat
+**/android/**/local.properties
+**/android/**/.gradle
+**/android/**/captures/
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/Flutter/Flutter.framework
+**/ios/**/Flutter/Flutter.podspec
+**/ios/**/DerivedData/
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+**/.idea/
+**/.vscode/
+*.iml
+*.iws
+*.ipr
+
+# ==========================================
+# OS Files
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Local Archives & Utilities (Not needed in Git)
+# ==========================================
+*.zip
+*.7z
+*.rar
+*.tar.gz
+ngrok/
+ServerMessenger/
+
+# Secrets & Production Settings
+**/appsettings.Production.json
+**/secrets.json
+
+# ==========================================
+# User Uploads / Avatars / Media
+# ==========================================
+**/wwwroot/avatars/*
+!**/wwwroot/avatars/.gitkeep

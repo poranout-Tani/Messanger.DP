@@ -1,0 +1,12 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhN2E3MzM2Ni03ZGExLTQyZTEtOGUxZi0xNWViZGIwMzBkNjYiLCJleHAiOjE3NzkwNjcyMzIsImlzcyI6Ik15TWVzc2VuZ2VyQXBwIiwiYXVkIjoiTXlNZXNzZW5nZXJBcHBDbGllbnQifQ.qGt1wd3fzHM48X6V0cnoWXsLY8PIA8T9EFh86Ik4SK8
+
+@chatId = b20f8c88-8944-48ad-9773-db5676d249cf
+
+POST https://localhost:7212/messages/{{chatId}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "textMessage": "Привет, это сообщение отправлено напрямую!"
+}
